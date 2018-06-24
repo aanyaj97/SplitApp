@@ -16,6 +16,7 @@
 		381BC10020DF4BE30029BEC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381BC0FE20DF4BE30029BEC6 /* LaunchScreen.storyboard */; };
 		381BC10B20DF4BE40029BEC6 /* SplitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381BC10A20DF4BE40029BEC6 /* SplitAppTests.swift */; };
 		381BC11620DF4BE40029BEC6 /* SplitAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381BC11520DF4BE40029BEC6 /* SplitAppUITests.swift */; };
+		381BC12420DF4C250029BEC6 /* MainAlgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381BC12320DF4C250029BEC6 /* MainAlgo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		381BC11120DF4BE40029BEC6 /* SplitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		381BC11520DF4BE40029BEC6 /* SplitAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitAppUITests.swift; sourceTree = "<group>"; };
 		381BC11720DF4BE40029BEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		381BC12320DF4C250029BEC6 /* MainAlgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAlgo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				381BC0FC20DF4BE30029BEC6 /* Assets.xcassets */,
 				381BC0FE20DF4BE30029BEC6 /* LaunchScreen.storyboard */,
 				381BC10120DF4BE30029BEC6 /* Info.plist */,
+				381BC12320DF4C250029BEC6 /* MainAlgo.swift */,
 			);
 			path = SplitApp;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				381BC0F820DF4BE30029BEC6 /* ModelController.swift in Sources */,
 				381BC0F620DF4BE30029BEC6 /* DataViewController.swift in Sources */,
 				381BC0F220DF4BE30029BEC6 /* AppDelegate.swift in Sources */,
+				381BC12420DF4C250029BEC6 /* MainAlgo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
