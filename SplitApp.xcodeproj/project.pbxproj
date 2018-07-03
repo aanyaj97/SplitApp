@@ -16,7 +16,10 @@
 		381BC10020DF4BE30029BEC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 381BC0FE20DF4BE30029BEC6 /* LaunchScreen.storyboard */; };
 		381BC10B20DF4BE40029BEC6 /* SplitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381BC10A20DF4BE40029BEC6 /* SplitAppTests.swift */; };
 		381BC11620DF4BE40029BEC6 /* SplitAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381BC11520DF4BE40029BEC6 /* SplitAppUITests.swift */; };
-		381BC12420DF4C250029BEC6 /* MainAlgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381BC12320DF4C250029BEC6 /* MainAlgo.swift */; };
+		3865556020EC0F3B00B2C5A7 /* ItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3865555F20EC0F3B00B2C5A7 /* ItemInfo.swift */; };
+		3865556220EC0FAB00B2C5A7 /* SplitInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3865556120EC0FAB00B2C5A7 /* SplitInfo.swift */; };
+		3865556420EC10D000B2C5A7 /* EvenSplitFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3865556320EC10D000B2C5A7 /* EvenSplitFunc.swift */; };
+		3865556620EC10F300B2C5A7 /* DataInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3865556520EC10F300B2C5A7 /* DataInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +55,10 @@
 		381BC11120DF4BE40029BEC6 /* SplitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		381BC11520DF4BE40029BEC6 /* SplitAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitAppUITests.swift; sourceTree = "<group>"; };
 		381BC11720DF4BE40029BEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		381BC12320DF4C250029BEC6 /* MainAlgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAlgo.swift; sourceTree = "<group>"; };
+		3865555F20EC0F3B00B2C5A7 /* ItemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfo.swift; sourceTree = "<group>"; };
+		3865556120EC0FAB00B2C5A7 /* SplitInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitInfo.swift; sourceTree = "<group>"; };
+		3865556320EC10D000B2C5A7 /* EvenSplitFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenSplitFunc.swift; sourceTree = "<group>"; };
+		3865556520EC10F300B2C5A7 /* DataInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 		381BC0F020DF4BE30029BEC6 /* SplitApp */ = {
 			isa = PBXGroup;
 			children = (
+				3865555A20EC0EE000B2C5A7 /* Models */,
+				3865555E20EC0F0800B2C5A7 /* Controllers */,
+				3865555C20EC0EF800B2C5A7 /* Views */,
 				381BC0F120DF4BE30029BEC6 /* AppDelegate.swift */,
 				381BC0F320DF4BE30029BEC6 /* RootViewController.swift */,
 				381BC0F520DF4BE30029BEC6 /* DataViewController.swift */,
@@ -111,7 +120,6 @@
 				381BC0FC20DF4BE30029BEC6 /* Assets.xcassets */,
 				381BC0FE20DF4BE30029BEC6 /* LaunchScreen.storyboard */,
 				381BC10120DF4BE30029BEC6 /* Info.plist */,
-				381BC12320DF4C250029BEC6 /* MainAlgo.swift */,
 			);
 			path = SplitApp;
 			sourceTree = "<group>";
@@ -132,6 +140,31 @@
 				381BC11720DF4BE40029BEC6 /* Info.plist */,
 			);
 			path = SplitAppUITests;
+			sourceTree = "<group>";
+		};
+		3865555A20EC0EE000B2C5A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3865555F20EC0F3B00B2C5A7 /* ItemInfo.swift */,
+				3865556120EC0FAB00B2C5A7 /* SplitInfo.swift */,
+				3865556320EC10D000B2C5A7 /* EvenSplitFunc.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3865555C20EC0EF800B2C5A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3865555E20EC0F0800B2C5A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3865556520EC10F300B2C5A7 /* DataInput.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +305,10 @@
 				381BC0F820DF4BE30029BEC6 /* ModelController.swift in Sources */,
 				381BC0F620DF4BE30029BEC6 /* DataViewController.swift in Sources */,
 				381BC0F220DF4BE30029BEC6 /* AppDelegate.swift in Sources */,
-				381BC12420DF4C250029BEC6 /* MainAlgo.swift in Sources */,
+				3865556420EC10D000B2C5A7 /* EvenSplitFunc.swift in Sources */,
+				3865556020EC0F3B00B2C5A7 /* ItemInfo.swift in Sources */,
+				3865556220EC0FAB00B2C5A7 /* SplitInfo.swift in Sources */,
+				3865556620EC10F300B2C5A7 /* DataInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
