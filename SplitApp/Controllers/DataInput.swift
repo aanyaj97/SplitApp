@@ -7,3 +7,6 @@
 //
 
 import Foundation
+
+var items: [ItemPaid] = [] //store items purchased
+var names: [String] = [] //store names of people

@@ -11,8 +11,8 @@ import UIKit
 class DataViewController: UIViewController {
 
     @IBOutlet weak var dataLabel: UILabel!
-    var dataObject: String = ""
-
+    var dataObject: String = "Enter in Payment Info"
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +29,8 @@ class DataViewController: UIViewController {
         self.dataLabel!.text = dataObject
     }
 
-
+    @IBOutlet weak var cellInfo: UITableViewCell!
+    @IBOutlet weak var tabelInfo: UITableView!
+    
 }
 
